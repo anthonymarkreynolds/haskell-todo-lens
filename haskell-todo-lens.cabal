@@ -35,6 +35,10 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , lens
+    , monad-logger
+    , mtl
+    , text
   default-language: Haskell2010
 
 executable haskell-todo-lens-exe
@@ -49,6 +53,10 @@ executable haskell-todo-lens-exe
   build-depends:
       base >=4.7 && <5
     , haskell-todo-lens
+    , lens
+    , monad-logger
+    , mtl
+    , text
   default-language: Haskell2010
 
 test-suite haskell-todo-lens-test
@@ -64,4 +72,8 @@ test-suite haskell-todo-lens-test
   build-depends:
       base >=4.7 && <5
     , haskell-todo-lens
+    , lens
+    , monad-logger
+    , mtl
+    , text
   default-language: Haskell2010
