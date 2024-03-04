@@ -25,6 +25,7 @@ dependencies:
 - mtl
 - monad-logger
 - text 
+- time
 
 ghc-options:
 - -Wall
