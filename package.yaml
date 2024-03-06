@@ -26,6 +26,7 @@ dependencies:
 - monad-logger
 - text 
 - time
+- ansi-terminal
 
 ghc-options:
 - -Wall
